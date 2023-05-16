@@ -1,0 +1,66 @@
+.vert{
+    height: 150px;
+    width: 150px;
+    background-color: #008000;
+    border: 2px solid;
+    border-radius: 10% 20% 30% 40%;
+    float: left;
+    margin: 5px;
+}
+
+.cyan{
+    height: 150px;
+    width: 150px;
+    background-color: cyan;
+    border: 2px solid;
+    border-radius: 40% 0% 40% 0%;
+    float: left;
+    margin: 5px;
+
+}
+
+.cyan{
+    height: 150px;
+    width: 150px;
+    background-color: cyan;
+    border: 2px solid;
+    border-radius: 40% 0% 40% 0%;
+    float: left;
+    margin: 5px;
+
+}
+
+.retour{
+    clear: both;
+}
+
+.eau{
+    height: 150px;
+    width: 150px;
+    background-color: #7fffd4;
+    border: 2px solid;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+}
+
+.saumon{
+    height: 150px;
+    width: 150px;
+    background-color: #e9967a;
+    border: 2px solid;
+    border-radius: 20% 40% 20% 40%;
+    float: left; 
+    margin: 5px;  
+}
+
+.rouge{
+    background-color: red;
+}
+
+.invisible{
+    height: 150px;
+    width: 150px;
+    float: left; 
+    margin: 5px; 
+}
