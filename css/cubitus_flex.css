@@ -1,0 +1,50 @@
+
+.r1,
+.r2,
+.r3,
+.r4,
+.r5,
+.r6{
+    display: flex;
+    width: 950px;
+    margin: auto;
+    /* justify-content: space-between; */
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+section>div>div{
+    margin: 3px;
+    width: 150px;
+    height: 150px;
+}
+
+.vert{
+    background-color: green;
+    border: 2px solid;
+    border-radius: 20px 30px 40px 50px;
+}
+
+.bleu{
+    background-color: cyan;
+    border: 2px solid;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.saumon{
+    background-color: rgb(226, 156, 123);
+    border: 2px solid;
+    border-radius: 20px 50px 20px 50px;
+}
+
+.rond{
+    background-color: rgb(51, 209, 175);
+    border: 2px solid;
+    border-radius: 50%;
+}
