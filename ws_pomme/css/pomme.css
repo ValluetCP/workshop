@@ -23,6 +23,10 @@ body{
     padding: 20px;
 }
 
+img{
+    width:100%;
+}
+
 header{
     box-sizing: border-box;
     line-height: 0px;
@@ -30,6 +34,12 @@ header{
 
 nav{
     display: flex;
+    box-shadow: 0px 5px 10px rgba(188, 188, 188, 0.548);
+    border-bottom: 1px solid #82bd34;
+    border-top: 1px solid #9ee740;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     
 }
 
@@ -43,9 +53,17 @@ nav div{
     color: white;
     width: 100%;
     text-align: center;
-    border-right: 1px solid ;
+    border-right: 1px solid #f3f2d1;
     padding: 5px 0px;
 }
+
+#etape6{
+    border: none;
+}
+
+/* nav :last-child(){
+    border: none ;   
+} */
 
 .sect1{
     display: flex;
@@ -74,6 +92,7 @@ h2{
 
 .img_t{
     padding-top: 5px;
+    width: 20px;
 }
 
 .ss-titre{
@@ -106,3 +125,34 @@ span{
 /* p::first-letter {
     margin-left: 30px;
   } */
+
+                                /* Section 2 */
+
+.container_pomme{
+    position: relative;
+    margin-top: 20px;
+}
+
+.container_pomme>img{ 
+    opacity: 0.5;
+}
+
+
+
+.img_pomme>img{
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    top: 25%;
+    left: 25%;
+}
+
+h3{
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+    color: white;
+}
