@@ -1,0 +1,43 @@
+.nav{
+    justify-content: space-between;
+    color: orange;
+}
+
+.navbar-brand{
+    color: white;
+    font-family: Dosis;
+}
+
+/* .nav-link{
+    color: white;
+} */
+
+ul{
+    justify-content: space-between;
+}
+
+/* .card-group{
+    display: flex;
+} */
+
+h5{
+    font-family: Dosis; 
+}
+
+p{
+    font-size: 10px;
+}
+
+.card{
+    border: 0;
+}
+
+
+#navbarSupportedContent > ul li a,
+nav button {
+  color: #e7b165 !important;
+  text-transform: uppercase;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  letter-spacing: 1px !important;
+}
