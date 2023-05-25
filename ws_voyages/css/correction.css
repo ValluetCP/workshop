@@ -1,0 +1,89 @@
+/*----------------- GENERAL -----------------*/
+
+
+/*https://fonts.google.com/specimen/Kufam?sidebar.open=true&selection.family=Kufam:wght@400;500;700*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;700&display=swap');
+
+/* Import de la police Kufam de google font avec différentes graisses */
+
+html,
+body {
+    margin: 0;
+    /* retrait du margin prédéfinit pour éviter les différences de résultats sur les navigateurs */
+    padding: 0;
+    /* retrait du padding pour les mêmes raison */
+    font-family: 'Kufam', cursive;
+    /* on définit la police Kufam qu'on à importé comme la police de base du document */
+    text-shadow: 1px 1px 2px #000000a6;
+    /* le texte étant blanc sur des couleurs le text shadow permet de le faire mieux ressortir (x , y, dispersion, couleur)*/
+    /* il est recommandé d'utiliser un générateur pour faire des tests et comprendre le fonctionnement */
+}
+
+body {
+    color: white;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 200px;
+    background-image: linear-gradient(#70f8bb, #1ec3c7);
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+header>div:first-child,
+.logo,
+ul,
+section,
+footer,
+#icones {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ul,
+a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+} */
+
+header>div:first-child {
+    justify-content: space-between;
+}
+
+li {
+    margin: 0 20px;
+}
+
+footer {
+    height: 100px;
+    background-image: linear-gradient(#70f8bb, #1ec3c7);
+}
+
+
+/* Les 3 syntaxes sont possibles
+    
+    margin: 0 20px;
+    0 = Top et Bottom et 20px= Left et right
+
+    margin: 0 20px 0 20px;
+    0 = Top / 20px = right / 0 = Bottom / 20px = Left
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px; */
