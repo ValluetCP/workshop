@@ -1,0 +1,12 @@
+/* Deuxième partie */
+
+.picture2 {
+    display: none;
+}
+.card:hover .picture1 {
+    display: none;
+}
+.card:hover .picture2 {
+    display: block;
+}
+
