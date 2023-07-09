@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <title>Document</title>
+    <style>
+        
+        .date-input {
+          padding-right: 30px; /* Ajustez la valeur selon la taille de l'icône */
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <input type="text" id="defaultDate" class="date-input" placeholder="Date début">
+    <script>
+        $(document).ready(function() {
+        $("#defaultDate").datepicker({
+        showOn: "button",
+        buttonImageOnly: true,
+        buttonImage: "https://example.com/path-to-your-calendar-icon.png",
+        buttonText: "Sélectionner la date"
+      });
+    });
+    </script>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...VotreIntégritéDuFichier..." crossorigin="anonymous" />
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <style>
+    .input-group {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      width: 100%;
+    }
+  
+    .input-group .input-group-text {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-color: #ccc;
+      background-color: #fff;
+    }
+  
+    .input-group .date-input {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <input type="text" id="defaultDate" placeholder="Date début">
+  <div class="input-group">
+  
+ 
+    <input type="text" id="defaultDate" class="date-input" placeholder="Date début">
+      
+     
+    <div class="input-group-append">
+        
+        
+    
+       
+    <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+      
+     
+    </div>
+    
+    
+    </div>
+
+ 
+
+  <script>
+
+    $(document).ready(function() {
+
+      $("#defaultDate").datepicker();
+
+    });
+
+  </script>
+
+</body>
+
+</html> -->
